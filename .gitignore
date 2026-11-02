@@ -1,0 +1,21 @@
+# Ansible
+*.retry
+.ansible/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Local credentials and secrets
+.vault-pass
+.vault-password
+vault-pass*
+vault-password*
+kuberise-vault-pass
+.env
+.env.*
+
+# Editor temporary files
+*.swp
+*.swo
+*~
