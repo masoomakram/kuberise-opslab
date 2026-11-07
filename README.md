@@ -1,34 +1,40 @@
 # KubeRise OpsLab
 
-Built a multi-node Kubernetes cluster using kubeadm on Rocky Linux virtual machines to strengthen hands-on infrastructure and platform engineering skills.
+Built a multi-node Kubernetes cluster using kubeadm on Rocky Linux virtual machines, extending from manual provisioning to fully automated Ansible playbooks and production-simulated workload deployments.
 
 ## Existing Strengths
 
-- Linux administration
-- Patching and maintenance
-- Monitoring
-- Bash scripting
-- Troubleshooting
-- Infrastructure mindset
+  * Linux administration
+  * Patching and maintenance
+  * Monitoring
+  * Bash scripting
+  * Troubleshooting
+  * Infrastructure mindset
+  * Ansible automation
 
 ## Current Learning Focus
 
-- Kubernetes
-- Cluster operations
-- YAML deployments
-- Container networking
-- Ansible automation
-- Reliability engineering
+  * Kubernetes cluster operations
+  * YAML deployments and Service discovery
+  * Container networking (Flannel VXLAN)
+  * Ansible native modules and idempotency
+  * Reliability engineering
+  * Firewalld and advanced network troubleshooting
 
 ## Project Goals
 
-- Build Kubernetes clusters from scratch
-- Understand Kubernetes internals
-- Practice real-world troubleshooting
-- Learn networking and container runtime concepts
-- Document the complete learning journey
+  * Build Kubernetes clusters from scratch
+  * Understand Kubernetes internals
+  * Practice real-world troubleshooting
+  * Learn networking and container runtime concepts
+  * Automate infrastructure provisioning using Ansible
+  * Deploy and expose containerized workloads
+  * Document the complete learning journey
 
 ## Documentation
 
-- [Setup Documentation Phase 1](docs/setup-p1.md)
-- [Setup Documentation Phase 2](docs/setup-p2.md)
+  * [Node Provisioning & Runtime Setup](docs/01-node-provisioning-and-runtime.md)
+  * [Cluster Bootstrap & Networking](docs/02-cluster-bootstrap-and-networking.md)
+  * [Workload Deployment & Automation](docs/03-workload-deployment-and-automation.md)
+  * [Recovery & Automation Node](docs/04-recovery-and-automation-node.md)
+  * [VXLAN & Firewalld Troubleshooting](docs/05-vxlan-and-firewalld-troubleshooting.md)
