@@ -19,6 +19,11 @@ A hands-on Kubernetes lab project built using Rocky Linux VMs and kubeadm to und
   * Flannel CNI
   * Ansible
 
+## Current Automation Status
+
+  * Automated: OS prerequisites (kernel modules, sysctl settings) and service states via Ansible.
+  * Manual: Cluster bootstrapping (`kubeadm init`), CNI installation, and worker node joining.
+
 ## Documentation
 
   * [Node Provisioning & Runtime Setup](01-node-provisioning-and-runtime.md)
@@ -26,3 +31,10 @@ A hands-on Kubernetes lab project built using Rocky Linux VMs and kubeadm to und
   * [Workload Deployment & Automation](03-workload-deployment-and-automation.md)
   * [Recovery & Automation Node](04-recovery-and-automation-node.md)
   * [VXLAN & Firewalld Troubleshooting](05-vxlan-and-firewalld-troubleshooting.md)
+
+## Next Steps
+
+  * End-to-End Automation: Automate `kubeadm init`, CNI deployment, and `kubeadm join` using Ansible playbooks.
+  * Persistent Storage: Implement Longhorn or NFS provisioner for dynamic PVCs.
+  * Observability: Deploy Prometheus and Grafana for cluster monitoring.
+  * Ingress: Install an NGINX Ingress Controller for external routing.
